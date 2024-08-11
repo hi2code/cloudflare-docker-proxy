@@ -8,7 +8,7 @@ local_protocol = "http"
 
 [env.dev.vars]
 MODE = "debug"
-TARGET_UPSTREAM = "https://hub.docker.com"
+TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.production]
 name = "cloudflare-docker-proxy"
